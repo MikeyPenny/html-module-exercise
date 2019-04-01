@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 1.7em;
+    
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 15px 0;
+    height: 15px;
+}
+
+
+.li-item {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+.top-left {
+    float: left;
+    letter-spacing: 0.5px;
+    font-size: 1.7em;
+    margin: 0 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.top-left h1 {
+    margin: 0 15px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.top-left a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-links {
+    float: right;    
+    padding: 0;
+    margin: 0 20px 0 0;
+    width: 50%;
+}
+
+.top-li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#header-section {
+    background-image: url("../starter-code/images/city-scape.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0;
+    background-color: rgb(32, 101, 136);
+    height: 400px;
+}
+
+.top-search {
+    margin: 5px auto;
+    width: 95%;
+}
+
+.col {
+    float: left;
+}
+
+.col-3 {
+    width: 10%;
+}
+
+.col-middle {
+    width: 75%;
+}
+
+.image-container img {
+    height: 4em;
+}
+
+.search-form input {
+    border: 1px solid grey;
+    margin: 0;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(31, 82, 111);
+    color: gray;
+    outline: none;
+}
+
+.search-form button {
+    background-color: rgb(31, 82, 111);
+    border: 1px solid grey;
+    border-left: none;
+    color: gray;
+    padding: 10px;
+    margin: 0;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sign-log-container ul {
+    float: right;
+}
+
+.sign-log-container ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.sign-log-container ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.sign-log-container p {
+    float: left;
+    margin: 8px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.login-image {
+    height: 2.6em;
+}
+
+.header-body {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: left;
+    padding: 60px 0 0px 20px;
+}
+
+.header-body h2 {
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.header-body p {
+    margin: 20px 5px 25px;
+    font-size: 1.9em;
+}
+
+.header-body button {
+    color: #fff;
+    background-color: rgb(240, 146, 51);
+    border-radius: 20px;
+    padding: 15px 15px;
+    border: 0;
+    font-size: 2em;
+}
+
+.header-body img {
+    width: 100%;
+}
+
+
+#collaborate-section {
+    background-color: rgb(39, 53, 71);
+    height: 550px;
+}
+
+.collab-container {
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.img-clb-container {
+    float: left;
+    width: 45%;
+}
+
+.img-clb-container img {
+    height: 30em;
+}
+
+.txt-clb-container {
+    float: right;
+    width: 55%;
+    color: #fff;
+}
+
+.txt-clb-container h2 {
+    padding: 0 0 0 10px;
+    font-size: 6em;
+    font-weight: normal;
+}
+
+.list-btn-container {
+    padding: 10px 0 0 30px;
+    color: #fff;
+}
+
+.list-btn-container ul {
+    font-size: 1.8em;
+}
+
+.list-btn-container ul li {
+    margin: 18px 0;
+    padding: 5px 0;
+}
+
+.btn-collaborate {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: #fff;
+    font-size: 1.7em;
+    border-radius: 20px 20px;
+    padding: 10px 5px;
+    width: 10em;
+    margin-bottom: 10px;
+}
+
+.list-btn-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#what-is-section {
+    position: relative;
+    background-image: url("../starter-code/images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0;
+    background-color: rgb(32, 101, 136);
+    height: 400px;
+}
+
+.wi-text-container {
+    position: absolute;
+    top: 13em;
+    left: 19em;
+    color: #fff;
+}
+
+.what-is-header {
+    margin-bottom: 22px;
+}
+
+.what-is-header h2 {
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+.what-p-container {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.wi-text-container button {
+    color: #fff;
+    width: 8em;
+    background-color: rgb(49, 68, 88);
+    border: none;
+    border-radius: 20px 20px;
+    padding: 10px 5px;
+    font-size: 1.7em;
+}
+
+/* .top-search ul {
+    float: right;
+} */
