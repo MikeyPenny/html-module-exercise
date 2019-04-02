@@ -291,6 +291,59 @@ nav {
     font-size: 1.7em;
 }
 
+#make-section {
+    background-color: #fff;
+}
+
+.ms-head-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 50px;
+    color: rgb(83, 88, 98);
+    margin-bottom: 30px;
+}
+
+.ms-head-text h2 {
+    padding-bottom: 10px;
+}
+
+.ms-logos-desc {
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.ms-logo {
+    text-align: center;
+}
+
+.col-3-logo {
+    width: 33%;
+}
+
+.col-logo-mid {
+    margin: 0 5%;
+}
+
+.ms-log-title {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.ms-logo a {
+    text-decoration: none;
+    color: rgb(208, 74, 73);
+}
+
+.ms-logo p {
+    padding: 8px 50px;
+    font-size: 1.7em;
+    font-weight: normal;
+    color: rgb(135, 145, 156);
+}
+
 /* .top-search ul {
     float: right;
 } */
